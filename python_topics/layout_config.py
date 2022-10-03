@@ -1,0 +1,21 @@
+LAYOUT_MAPPING = {
+    "ID":(1,3),
+    "Price":(4,15),
+    "OPERATION DATE":(16,23),
+    "VALUATION DATE":(24,31),
+    "TARGET VALUE":(32,46),
+    "AMOUNT 1":(47,63),
+    "AMOUNT 2":(64,80),
+    "AMOUNT 3":(81,97),
+    "AMOUNT 4":(98,114),
+    "AMOUNT 5":(115,131),
+    "AMOUNT 6":(132,148),
+    "AMOUNT 7":(149,165)
+}
+
+COLUMNS_MAPPING = {
+    "ID":"PORTFOLIO_ID",
+    "OPERATION DATE":"TRADE_DATE",
+    "VALUATION DATE":"SETTLE_DATE",
+    "TARGET VALUE":"AMOUNT"
+}
